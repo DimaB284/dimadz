@@ -1,0 +1,40 @@
+h1{
+	margin-left:650px;
+}
+.menu ul li{
+	padding:10px;
+}
+.menu ul > li:hover{
+	background-color:#f96;
+}
+.menu ul ul > li:hover{
+	background-color:#69e;
+}
+.menu ul li, .menu ul{
+	display:inline-block;
+	}
+	.menu ul{
+		position:relative;
+		margin:0;
+		padding:0;
+		background-color:#f63;
+		
+	}
+.menu ul ul{
+	display:none;
+	position:absolute;
+	background-color:#00ffff;
+	margin-top:10px;
+	margin-left:-10px;
+	
+}
+.menu ul a{
+	padding:10px;
+	text-decoration:none;
+}
+.menu li:hover ul{
+	display:block;
+}
+.menu li:hover li{
+	display:block;
+}
